@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        body{
+            
+            background-image: url("image/1280x960_px_black_background_digital_art_electricity_fire_hands_Lamp_smoke-847061.jpg!d");
+        }
+        .navbar-nav li a{
+            font-size: 20px;
+            font-weight: 500;
+            margin-right: 15px;
+            color: white;
+            
+        }
+        .navbar-nav li a:hover{
+            color: white !important;
+            opacity: .5;
+            
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .home-section{
+            padding: 7rem 0 12rem 15rem;
+        }
+        .home-section h1{
+            font-size: 100px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+
+        }
+        .home-section .home-icon{
+            color: rgb(51, 255, 0);
+            font-size: 100px;
+            padding: 300px;
+        }
+        .about-section{
+            padding: 8rem;
+            background-color: gray;
+        }
+        .services-section{
+          padding: 8rem;
+            background-color: gray;
+        }
+        .services-section .card{
+            background-color: rgb(216, 214, 214);
+        }
+    </style>
+</head>
+
+  <body>
+    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="image/logo-white.webp" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Porfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <hr style="color: white;">
+
+    <div class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <a href="#" class="home-icon"><i class="fa-solid fa-play"></i></a>
+                    <h1>AWESOME DESIGN</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="about-section">
+            <div class="container">
+                <div class="row">
+
+                    <h2 style="text-align: center;">ABOUT US</h2>
+
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero placeat voluptates. Accusantium dolorum nihil, vel facilis delectus consequuntur similique molestias beatae officiis eveniet optio iusto doloremque? Impedit, in beatae!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ratione saepe vel rem necessitatibus unde magni eaque dicta. Tempora voluptas libero quia eos dicta. Quisquam maxime enim deserunt architecto modi!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam aut asperiores iusto sapiente ut inventore dignissimos hic explicabo voluptas? Esse, minima. Commodi vel ad unde explicabo minima non eaque voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services-section">
+            <div class="container">
+                <div class="row">
+                    <h2 style="text-align: center;">SERVICES</h2>
+
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/1280x960_px_black_background_digital_art_electricity_fire_hands_Lamp_smoke-847061.jpg!d" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/1280x960_px_black_background_digital_art_electricity_fire_hands_Lamp_smoke-847061.jpg!d" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/1280x960_px_black_background_digital_art_electricity_fire_hands_Lamp_smoke-847061.jpg!d" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/1280x960_px_black_background_digital_art_electricity_fire_hands_Lamp_smoke-847061.jpg!d" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
